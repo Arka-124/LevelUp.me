@@ -1,0 +1,27 @@
+/* Bead orbit: horizontal pass at top & bottom midpoints */
+
+
+
+.bead {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.7);
+  z-index: 10;
+  transition: animation-duration 0.3s ease;
+}
+
+.dark .bead {
+  background-color: white;
+  box-shadow: 0 0 8px rgba(255,255,255,0.8);
+}
+
+
+
+
+.aura-button {
+  position: relative;
+  display: inline-block;
+}
